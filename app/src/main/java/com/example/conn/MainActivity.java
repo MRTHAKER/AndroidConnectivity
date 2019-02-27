@@ -16,10 +16,7 @@ public class MainActivity extends AppCompatActivity  {
         setContentView(R.layout.activity_main);
         final EditText id=(EditText)findViewById(R.id.id);
         final EditText name=(EditText)findViewById(R.id.name);
-        final TextView display=(TextView)findViewById(R.id.distxt);
         final Button insert=(Button)findViewById(R.id.insert);
-        final Button update=(Button)findViewById(R.id.update);
-        final Button delete=(Button)findViewById(R.id.delete);
         final Button dis=(Button)findViewById(R.id.display);
         final helper h=new helper(getApplicationContext());
         insert.setOnClickListener(new View.OnClickListener() {

@@ -19,25 +19,9 @@
         android:layout_height="50dp"
         android:hint="enter Name:" />
 
-    <TextView
-        android:id="@+id/distxt"
-        android:layout_width="match_parent"
-        android:layout_height="100dp" />
-
     <Button
         android:id="@+id/insert"
         android:text="Insert"
-        android:layout_width="match_parent"
-        android:layout_height="50dp" />
-    <Button
-        android:id="@+id/update"
-        android:text="Update"
-        android:layout_width="match_parent"
-        android:layout_height="50dp" />
-
-    <Button
-        android:id="@+id/delete"
-        android:text="Delete"
         android:layout_width="match_parent"
         android:layout_height="50dp" />
 
